@@ -33,6 +33,8 @@ Ce qui est imposé :
 **Rationale** : la doc Vercel le confirme, un fichier `api/*.ts` avec un `fetch` exporté par défaut se déploie sans configuration. La réécriture garde les paramètres de l'adresse.
 **Alternatives considered** : Hono ou Express, une dépendance pour une seule route ; Next.js ou SvelteKit, un framework entier pour une seule réponse texte.
 
+**Résultat (2026-10-24)** : les imports `.ts` fonctionnent tels quels sur Vercel (Node 24.x, preview `utopia-calendar-a176xidj1`) ; aucun repli n'est nécessaire.
+
 **Risque à lever en premier** : la feature 001 importe ses modules avec l'extension `.ts` (`import … from "./ics.ts"`), ce qui est possible grâce à l'exécution native du TypeScript par Node. La doc Vercel ne dit pas si son compilateur `@vercel/node` accepte ces imports.
 - **Test** : déployer d'abord une fonction minimale qui importe `src/ics.ts`.
 - **Repli si ça échoue** : activer `rewriteRelativeImportExtensions` dans `tsconfig.json` (TS ≥ 5.7, qui réécrit `.ts` en `.js` à la compilation). Si ça ne suffit toujours pas, faire un `buildCommand` qui assemble `api/calendar.ts` en un seul `.js` (esbuild, installé en dev uniquement).

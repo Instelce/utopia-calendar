@@ -1,5 +1,7 @@
 # Quickstart: valider les filtres
 
+Projet Vercel : `instelces-projects/utopia-calendar` (`prj_OgRtDcjPstANmGLcF3dpc3qVMVqJ`, team `team_SaPChyiylbjKRH0kd3PxPeV4`). Il a été créé avec la CLI (`vercel link`), car le MCP Vercel n'a pas les droits sur cette équipe (403/404). Les previews sont protégées : pour les tester, utiliser `npx vercel curl <chemin> --deployment <url> --scope instelces-projects`.
+
 Contrats : [filter-syntax.md](./contracts/filter-syntax.md), [calendar-endpoint.md](./contracts/calendar-endpoint.md).
 
 ## 1. Hors ligne

@@ -41,7 +41,7 @@ Bornes à vérifier :
 
 **Purpose**: créer le projet Vercel et lever le risque des imports `.ts` (research R2) avant d'écrire la logique.
 
-- [ ] T001 Créer le projet Vercel `utopia-calendar` relié au dépôt GitHub `Instelce/utopia-calendar`, avec l'outil MCP `mcp__vercel__create_git_project` (le charger via ToolSearch) :
+- [X] T001 Créer le projet Vercel `utopia-calendar` relié au dépôt GitHub `Instelce/utopia-calendar`, avec l'outil MCP `mcp__vercel__create_git_project` (le charger via ToolSearch) :
   - framework « Other », sans build command, branche de production `main` ;
   - vérifier ensuite avec `mcp__vercel__list_projects` (`search: "utopia"`).
 
@@ -52,7 +52,7 @@ Bornes à vérifier :
   ```json
   { "$schema": "https://openapi.vercel.sh/vercel.json", "rewrites": [{ "source": "/", "destination": "/api/calendar" }] }
   ```
-- [ ] T004 Créer un squelette `api/calendar.ts` qui importe `import { toIcs } from "../src/ics.ts";` et `import { VENUES } from "../src/venues.ts";`, et exporte `export default { fetch() { return new Response(toIcs(VENUES[0], []), { headers: { "Content-Type": "text/calendar; charset=utf-8" } }); } }`.
+- [X] T004 Créer un squelette `api/calendar.ts` qui importe `import { toIcs } from "../src/ics.ts";` et `import { VENUES } from "../src/venues.ts";`, et exporte `export default { fetch() { return new Response(toIcs(VENUES[0], []), { headers: { "Content-Type": "text/calendar; charset=utf-8" } }); } }`.
   1. **Demander à l'utilisateur l'autorisation** de commiter sur une branche `002-calendar-filters` et de la pousser (Vercel crée alors un déploiement de preview).
   2. Vérifier avec `mcp__vercel__list_deployments` puis `mcp__vercel__get_deployment` que le build réussit, et avec `mcp__vercel__web_fetch_vercel_url` sur l'URL de preview (chemin `/`) qu'il renvoie un `VCALENDAR`.
 
