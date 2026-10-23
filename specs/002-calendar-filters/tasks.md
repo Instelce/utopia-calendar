@@ -217,7 +217,7 @@ Bornes à vérifier :
 ## Phase 7: Polish & Cross-Cutting Concerns
 
 - [X] T018 Lancer `npm run typecheck` et `npm test`, et corriger toute erreur dans `src/`, `api/` et `tests/`.
-- [ ] T019 Avant de pousser, noter l'empreinte md5 du `manutention.ics` publié (`curl -s https://instelce.github.io/utopia-calendar/manutention.ics | md5`). **Demander à l'utilisateur l'autorisation** de fusionner sur `main` et de pousser. Ensuite :
+- [X] T019 Avant de pousser, noter l'empreinte md5 du `manutention.ics` publié (`curl -s https://instelce.github.io/utopia-calendar/manutention.ics | md5`). **Demander à l'utilisateur l'autorisation** de fusionner sur `main` et de pousser. Ensuite :
   - suivre le workflow GitHub Actions et le déploiement de production Vercel (`mcp__vercel__list_deployments`) ;
   - dérouler [quickstart.md](./quickstart.md), section 4 ;
   - vérifier que `sessions.json` est publié ;
@@ -226,7 +226,7 @@ Bornes à vérifier :
   - le md5 de `manutention.ics` doit être inchangé si le site n'a pas changé entre-temps. Sinon, comparer `npm run generate` lancé sur le commit précédent et sur le nouveau, avec la même page.
 
   En cas d'erreur à l'exécution : `mcp__vercel__get_runtime_errors`, puis `mcp__vercel__get_runtime_logs`.
-- [ ] T020 Demander à l'utilisateur de s'abonner sur son téléphone à l'adresse de [quickstart.md](./quickstart.md), section 5, et si possible dans une deuxième application (SC-002). Lui faire vérifier qu'aucune séance de semaine avant 17:00 n'apparaît et que l'application n'a ajouté aucun paramètre qui provoquerait un refus (plan, risque « paramètres inconnus »).
+- [X] T020 Demander à l'utilisateur de s'abonner sur son téléphone à l'adresse de [quickstart.md](./quickstart.md), section 5, et si possible dans une deuxième application (SC-002). Lui faire vérifier qu'aucune séance de semaine avant 17:00 n'apparaît et que l'application n'a ajouté aucun paramètre qui provoquerait un refus (plan, risque « paramètres inconnus »).
 
 ---
 
