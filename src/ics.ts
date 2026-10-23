@@ -1,5 +1,5 @@
 import type { Session } from "./scrape.ts";
-import type { Venue } from "./venues.ts";
+import { VENUES, type Venue } from "./venues.ts";
 
 const DEFAULT_DURATION_MIN = 120;
 
@@ -57,11 +57,34 @@ function description(s: Session): string {
   return [facts.join(" · "), ...s.labels, s.url].filter(Boolean).join("\n");
 }
 
-export function toIcs(venue: Venue, sessions: Session[]): string {
-  const sorted = [...sessions].sort(
-    (a, b) => a.date.localeCompare(b.date) || a.time.localeCompare(b.time) || a.title.localeCompare(b.title),
-  );
-  const events = sorted.flatMap((s) => [
+export const byStart = (a: Session, b: Session) =>
+  a.date.localeCompare(b.date) || a.time.localeCompare(b.time) || a.title.localeCompare(b.title);
+
+/** Sessions of venues missing from VENUES are skipped. */
+export function toIcs(calendarName: string, sessions: Session[]): string {
+  const events = [...sessions].sort(byStart).flatMap((s) => {
+    const venue = VENUES.find((v) => v.name === s.venue);
+    return venue ? eventLines(s, venue) : [];
+  });
+  const lines = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//utopia-calendar//FR",
+    "CALSCALE:GREGORIAN",
+    "METHOD:PUBLISH",
+    `X-WR-CALNAME:${escape(calendarName)}`,
+    "X-WR-TIMEZONE:Europe/Paris",
+    "REFRESH-INTERVAL;VALUE=DURATION:P1D",
+    "X-PUBLISHED-TTL:P1D",
+    ...VTIMEZONE,
+    ...events,
+    "END:VCALENDAR",
+  ];
+  return lines.map(fold).join("\r\n") + "\r\n";
+}
+
+function eventLines(s: Session, venue: Venue): string[] {
+  return [
     "BEGIN:VEVENT",
     `UID:${s.date}T${s.time.replace(":", "")}-${s.filmId}-${venue.slug}@utopia-calendar`,
     `DTSTAMP:${s.date.replace(/-/g, "")}T000000Z`,
@@ -72,20 +95,5 @@ export function toIcs(venue: Venue, sessions: Session[]): string {
     `DESCRIPTION:${escape(description(s))}`,
     `URL:${s.url}`,
     "END:VEVENT",
-  ]);
-  const lines = [
-    "BEGIN:VCALENDAR",
-    "VERSION:2.0",
-    "PRODID:-//utopia-calendar//FR",
-    "CALSCALE:GREGORIAN",
-    "METHOD:PUBLISH",
-    `X-WR-CALNAME:${escape(`Utopia ${venue.name}`)}`,
-    "X-WR-TIMEZONE:Europe/Paris",
-    "REFRESH-INTERVAL;VALUE=DURATION:P1D",
-    "X-PUBLISHED-TTL:P1D",
-    ...VTIMEZONE,
-    ...events,
-    "END:VCALENDAR",
   ];
-  return lines.map(fold).join("\r\n") + "\r\n";
 }

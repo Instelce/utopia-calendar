@@ -1,5 +1,5 @@
 import { mkdirSync, writeFileSync } from "node:fs";
-import { toIcs } from "./ics.ts";
+import { byStart, toIcs } from "./ics.ts";
 import { parseSessions } from "./scrape.ts";
 import { VENUES } from "./venues.ts";
 
@@ -34,6 +34,11 @@ for (const s of sessions.filter((s) => !known.has(s.venue))) {
 mkdirSync(OUT_DIR, { recursive: true });
 for (const venue of VENUES) {
   const own = sessions.filter((s) => s.venue === venue.name);
-  writeFileSync(`${OUT_DIR}/${venue.slug}.ics`, toIcs(venue, own));
+  writeFileSync(`${OUT_DIR}/${venue.slug}.ics`, toIcs(`Utopia ${venue.name}`, own));
   console.log(`${venue.slug}: ${own.length} séances`);
 }
+
+// Read by the Vercel function (api/calendar.ts) to serve filtered calendars.
+const published = sessions.filter((s) => known.has(s.venue)).sort(byStart);
+writeFileSync(`${OUT_DIR}/sessions.json`, JSON.stringify(published));
+console.log(`sessions.json: ${published.length} séances`);

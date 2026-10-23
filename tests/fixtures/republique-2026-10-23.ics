@@ -1,0 +1,192 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//utopia-calendar//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Utopia République
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-10-23T1400-local_5120-republique@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T140000
+DTEND;TZID=Europe/Paris:20261023T162600
+SUMMARY:Fjord
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:2026 · 146 mn · Roumanie\, Norvège\, France · VOST\nhttps:/
+ /avignon.cinemas-utopia.org/film?id=local_5120
+URL:https://avignon.cinemas-utopia.org/film?id=local_5120
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1645-3033-republique@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T164500
+DTEND;TZID=Europe/Paris:20261023T185000
+SUMMARY:L’Éclipse
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:1962 · 125 mn · Italie\, France · VOST\nhttps://avignon.cine
+ mas-utopia.org/film?id=3033
+URL:https://avignon.cinemas-utopia.org/film?id=3033
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1900-local_6276-republique@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T190000
+DTEND;TZID=Europe/Paris:20261023T213800
+SUMMARY:Notre salut
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:2026 · 158 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=local_6276
+URL:https://avignon.cinemas-utopia.org/film?id=local_6276
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1400-local_6278-republique@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T140000
+DTEND;TZID=Europe/Paris:20261024T164000
+SUMMARY:La bataille de Gaulle – J’écris ton nom
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:2026 · 160 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=local_6278
+URL:https://avignon.cinemas-utopia.org/film?id=local_6278
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1700-14111-republique@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T170000
+DTEND;TZID=Europe/Paris:20261024T190800
+SUMMARY:Digger
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:2026 · 128 mn · USA · VOST\nhttps://avignon.cinemas-utopia.o
+ rg/film?id=14111
+URL:https://avignon.cinemas-utopia.org/film?id=14111
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1930-14406-republique@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T193000
+DTEND;TZID=Europe/Paris:20261024T211500
+SUMMARY:Marie Madeleine
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:2026 · 105 mn · Haïti\, France · VOST\nhttps://avignon.cine
+ mas-utopia.org/film?id=14406
+URL:https://avignon.cinemas-utopia.org/film?id=14406
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1500-14406-republique@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T150000
+DTEND;TZID=Europe/Paris:20261025T164500
+SUMMARY:Marie Madeleine
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:2026 · 105 mn · Haïti\, France · VOST\nhttps://avignon.cine
+ mas-utopia.org/film?id=14406
+URL:https://avignon.cinemas-utopia.org/film?id=14406
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1700-14317-republique@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T170000
+DTEND;TZID=Europe/Paris:20261025T190300
+SUMMARY:Une femme aujourd’hui
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:2026 · 123 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=14317
+URL:https://avignon.cinemas-utopia.org/film?id=14317
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1915-14502-republique@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T191500
+DTEND;TZID=Europe/Paris:20261025T211400
+SUMMARY:Safe
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:1995 · 119 mn · USA\, GB · VOST\nTodd Haynes / ses 2 premier
+ s films\nhttps://avignon.cinemas-utopia.org/film?id=14502
+URL:https://avignon.cinemas-utopia.org/film?id=14502
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1500-local_5111-republique@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T150000
+DTEND;TZID=Europe/Paris:20261026T164200
+SUMMARY:Butterfly Jam
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:2026 · 102 mn · USA · VOST\nhttps://avignon.cinemas-utopia.o
+ rg/film?id=local_5111
+URL:https://avignon.cinemas-utopia.org/film?id=local_5111
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1700-14649-republique@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T170000
+DTEND;TZID=Europe/Paris:20261026T191200
+SUMMARY:Naked
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:1993 · 132 mn · GB · VOST\nMike Leigh en 3 films\nhttps://av
+ ignon.cinemas-utopia.org/film?id=14649
+URL:https://avignon.cinemas-utopia.org/film?id=14649
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1930-14199-republique@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T193000
+DTEND;TZID=Europe/Paris:20261026T210500
+SUMMARY:L’espèce explosive
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:2026 · 95 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=14199
+URL:https://avignon.cinemas-utopia.org/film?id=14199
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1500-14112-republique@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T150000
+DTEND;TZID=Europe/Paris:20261027T164800
+SUMMARY:Le chant des oliviers
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:2026 · 108 mn · Malte · VOST\nhttps://avignon.cinemas-utopia
+ .org/film?id=14112
+URL:https://avignon.cinemas-utopia.org/film?id=14112
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1700-local_6276-republique@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T170000
+DTEND;TZID=Europe/Paris:20261027T193800
+SUMMARY:Notre salut
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:2026 · 158 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=local_6276
+URL:https://avignon.cinemas-utopia.org/film?id=local_6276
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1950-14205-republique@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T195000
+DTEND;TZID=Europe/Paris:20261027T213500
+SUMMARY:Ton animal maternel
+LOCATION:Utopia République\, 5 rue Figuière\, 84000 Avignon
+DESCRIPTION:2026 · 105 mn · Costa Rica · VOST\nhttps://avignon.cinemas-u
+ topia.org/film?id=14205
+URL:https://avignon.cinemas-utopia.org/film?id=14205
+END:VEVENT
+END:VCALENDAR

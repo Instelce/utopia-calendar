@@ -23,7 +23,7 @@ const session = (over: Partial<Session> = {}): Session => ({
 const unfold = (ics: string) => ics.replace(/\r\n /g, "");
 
 test("calendar envelope and headers", () => {
-  const ics = toIcs(manutention, [session()]);
+  const ics = toIcs("Utopia Manutention", [session()]);
   assert.ok(ics.startsWith("BEGIN:VCALENDAR\r\n"));
   assert.ok(ics.endsWith("END:VCALENDAR\r\n"));
   for (const line of [
@@ -37,7 +37,7 @@ test("calendar envelope and headers", () => {
 });
 
 test("start, end, uid, dtstamp", () => {
-  const ics = toIcs(manutention, [session()]);
+  const ics = toIcs("Utopia Manutention", [session()]);
   assert.ok(ics.includes("DTSTART;TZID=Europe/Paris:20261023T103000\r\n"));
   assert.ok(ics.includes("DTEND;TZID=Europe/Paris:20261023T120000\r\n"));
   assert.ok(ics.includes("UID:2026-10-23T1030-local_5075-manutention@utopia-calendar\r\n"));
@@ -45,29 +45,29 @@ test("start, end, uid, dtstamp", () => {
 });
 
 test("end past midnight rolls to next day", () => {
-  const ics = toIcs(manutention, [session({ date: "2026-10-24", time: "22:30", durationMin: 156, title: "Hope" })]);
+  const ics = toIcs("Utopia Manutention", [session({ date: "2026-10-24", time: "22:30", durationMin: 156, title: "Hope" })]);
   assert.ok(ics.includes("DTEND;TZID=Europe/Paris:20261025T010600\r\n"));
 });
 
 test("missing duration defaults to 120 min", () => {
-  const ics = toIcs(manutention, [session({ date: "2026-10-25", time: "01:20", durationMin: null, title: "Flush" })]);
+  const ics = toIcs("Utopia Manutention", [session({ date: "2026-10-25", time: "01:20", durationMin: null, title: "Flush" })]);
   assert.ok(ics.includes("DTEND;TZID=Europe/Paris:20261025T032000\r\n"));
 });
 
 test("escapes text values", () => {
-  const ics = toIcs(manutention, [session()]);
+  const ics = toIcs("Utopia Manutention", [session()]);
   assert.ok(unfold(ics).includes("LOCATION:Utopia Manutention\\, 4 Rue des Escaliers Sainte-Anne\\, 84000 Avignon\r\n"));
 });
 
 test("empty calendar is valid", () => {
-  const ics = toIcs(manutention, []);
+  const ics = toIcs("Utopia Manutention", []);
   assert.ok(ics.includes("BEGIN:VTIMEZONE"));
   assert.ok(!ics.includes("BEGIN:VEVENT"));
 });
 
 test("lines are folded at 75 octets", () => {
   const long = "Un titre très très long avec des accents éèàù pour forcer le pliage de la ligne en plusieurs morceaux";
-  const ics = toIcs(manutention, [session({ title: long, labels: [long] })]);
+  const ics = toIcs("Utopia Manutention", [session({ title: long, labels: [long] })]);
   const lines = ics.split("\r\n");
   assert.ok(lines.every((l) => Buffer.byteLength(l) <= 75));
   assert.ok(lines.some((l) => l.startsWith(" ")));
@@ -76,12 +76,12 @@ test("lines are folded at 75 octets", () => {
 });
 
 test("output is deterministic", () => {
-  assert.equal(toIcs(manutention, [session()]), toIcs(manutention, [session()]));
+  assert.equal(toIcs("Utopia Manutention", [session()]), toIcs("Utopia Manutention", [session()]));
 });
 
 // Integration on the frozen page (US2, US3).
 const fixture = parseSessions(readFileSync(new URL("./fixtures/horaires-2026-10-23.html", import.meta.url), "utf8"));
-const feed = (v: typeof manutention) => unfold(toIcs(v, fixture.filter((s) => s.venue === v.name)));
+const feed = (v: typeof manutention) => unfold(toIcs(`Utopia ${v.name}`, fixture.filter((s) => s.venue === v.name)));
 
 test("one feed per venue, filtered", () => {
   const m = feed(manutention);
@@ -101,4 +101,11 @@ test("description carries labels, VOST and film link", () => {
   assert.ok(hopes?.includes("VOST"));
   assert.ok(hopes?.includes("Mike Leigh en 3 films"));
   assert.ok(hopes?.includes("URL:https://avignon.cinemas-utopia.org/film?id=8621\r\n"));
+});
+
+test("per-venue feeds are byte-identical to the reference (FR-011)", () => {
+  for (const v of VENUES) {
+    const expected = readFileSync(new URL(`./fixtures/${v.slug}-2026-10-23.ics`, import.meta.url), "utf8");
+    assert.equal(toIcs(`Utopia ${v.name}`, fixture.filter((s) => s.venue === v.name)), expected, v.slug);
+  }
 });

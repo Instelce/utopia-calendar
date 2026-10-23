@@ -1,0 +1,1336 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//utopia-calendar//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Utopia Manutention
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-10-23T1030-local_5075-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T103000
+DTEND;TZID=Europe/Paris:20261023T120000
+SUMMARY:Le Corset
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 90 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=local_5075
+URL:https://avignon.cinemas-utopia.org/film?id=local_5075
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1100-8621-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T110000
+DTEND;TZID=Europe/Paris:20261023T124800
+SUMMARY:High Hopes
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:1988 · 108 mn · Royaume-Uni · VOST\nMike Leigh en 3 films\nh
+ ttps://avignon.cinemas-utopia.org/film?id=8621
+URL:https://avignon.cinemas-utopia.org/film?id=8621
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1100-12938-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T110000
+DTEND;TZID=Europe/Paris:20261023T114400
+SUMMARY:Un amour d’épouvantail
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2025 · 44 mn · GB\nhttps://avignon.cinemas-utopia.org/film?id
+ =12938
+URL:https://avignon.cinemas-utopia.org/film?id=12938
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1130-14205-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T113000
+DTEND;TZID=Europe/Paris:20261023T131500
+SUMMARY:Ton animal maternel
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Costa Rica · VOST\nhttps://avignon.cinemas-u
+ topia.org/film?id=14205
+URL:https://avignon.cinemas-utopia.org/film?id=14205
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1200-14112-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T120000
+DTEND;TZID=Europe/Paris:20261023T134800
+SUMMARY:Le chant des oliviers
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 108 mn · Malte · VOST\nhttps://avignon.cinemas-utopia
+ .org/film?id=14112
+URL:https://avignon.cinemas-utopia.org/film?id=14112
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1220-13961-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T122000
+DTEND;TZID=Europe/Paris:20261023T143100
+SUMMARY:Raison et sentiments
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 131 mn · GB\, USA · VOST\nhttps://avignon.cinemas-uto
+ pia.org/film?id=13961
+URL:https://avignon.cinemas-utopia.org/film?id=13961
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1315-14502-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T131500
+DTEND;TZID=Europe/Paris:20261023T151400
+SUMMARY:Safe
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:1995 · 119 mn · USA\, GB · VOST\nTodd Haynes / ses 2 premier
+ s films\nhttps://avignon.cinemas-utopia.org/film?id=14502
+URL:https://avignon.cinemas-utopia.org/film?id=14502
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1340-14317-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T134000
+DTEND;TZID=Europe/Paris:20261023T154300
+SUMMARY:Une femme aujourd’hui
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 123 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=14317
+URL:https://avignon.cinemas-utopia.org/film?id=14317
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1410-14315-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T141000
+DTEND;TZID=Europe/Paris:20261023T155500
+SUMMARY:Wicker
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Royaume-Uni\, USA · VOST\nhttps://avignon.ci
+ nemas-utopia.org/film?id=14315
+URL:https://avignon.cinemas-utopia.org/film?id=14315
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1500-13344-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T150000
+DTEND;TZID=Europe/Paris:20261023T162400
+SUMMARY:Petite Casbah
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 84 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=13344
+URL:https://avignon.cinemas-utopia.org/film?id=13344
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1530-13979-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T153000
+DTEND;TZID=Europe/Paris:20261023T172400
+SUMMARY:Qui vit encore
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 114 mn · France\, Suisse · VOST\nhttps://avignon.cine
+ mas-utopia.org/film?id=13979
+URL:https://avignon.cinemas-utopia.org/film?id=13979
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1600-14406-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T160000
+DTEND;TZID=Europe/Paris:20261023T174500
+SUMMARY:Marie Madeleine
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Haïti\, France · VOST\nhttps://avignon.cine
+ mas-utopia.org/film?id=14406
+URL:https://avignon.cinemas-utopia.org/film?id=14406
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1620-local_5117-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T162000
+DTEND;TZID=Europe/Paris:20261023T184200
+SUMMARY:Minotaure
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 142 mn · France\, Allemagne\, Lettonie · VOST\nhttps:
+ //avignon.cinemas-utopia.org/film?id=local_5117
+URL:https://avignon.cinemas-utopia.org/film?id=local_5117
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1645-local_5075-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T164500
+DTEND;TZID=Europe/Paris:20261023T181500
+SUMMARY:Le Corset
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 90 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=local_5075
+URL:https://avignon.cinemas-utopia.org/film?id=local_5075
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1745-13460-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T174500
+DTEND;TZID=Europe/Paris:20261023T201000
+SUMMARY:La Gradiva
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 145 mn · France\, Italie\nhttps://avignon.cinemas-utop
+ ia.org/film?id=13460
+URL:https://avignon.cinemas-utopia.org/film?id=13460
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1800-14199-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T180000
+DTEND;TZID=Europe/Paris:20261023T193500
+SUMMARY:L’espèce explosive
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 95 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=14199
+URL:https://avignon.cinemas-utopia.org/film?id=14199
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1840-14317-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T184000
+DTEND;TZID=Europe/Paris:20261023T204300
+SUMMARY:Une femme aujourd’hui
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 123 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=14317
+URL:https://avignon.cinemas-utopia.org/film?id=14317
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T1900-local_5111-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T190000
+DTEND;TZID=Europe/Paris:20261023T204200
+SUMMARY:Butterfly Jam
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 102 mn · USA · VOST\nhttps://avignon.cinemas-utopia.o
+ rg/film?id=local_5111
+URL:https://avignon.cinemas-utopia.org/film?id=local_5111
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T2000-local_5117-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T200000
+DTEND;TZID=Europe/Paris:20261023T222200
+SUMMARY:Minotaure
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 142 mn · France\, Allemagne\, Lettonie · VOST\nhttps:
+ //avignon.cinemas-utopia.org/film?id=local_5117
+URL:https://avignon.cinemas-utopia.org/film?id=local_5117
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T2030-14111-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T203000
+DTEND;TZID=Europe/Paris:20261023T223800
+SUMMARY:Digger
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 128 mn · USA · VOST\nhttps://avignon.cinemas-utopia.o
+ rg/film?id=14111
+URL:https://avignon.cinemas-utopia.org/film?id=14111
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T2100-14504-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T210000
+DTEND;TZID=Europe/Paris:20261023T224500
+SUMMARY:Low Expectations
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Norvège · VOST\nhttps://avignon.cinemas-uto
+ pia.org/film?id=14504
+URL:https://avignon.cinemas-utopia.org/film?id=14504
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23T2100-14315-manutention@utopia-calendar
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Europe/Paris:20261023T210000
+DTEND;TZID=Europe/Paris:20261023T224500
+SUMMARY:Wicker
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Royaume-Uni\, USA · VOST\nhttps://avignon.ci
+ nemas-utopia.org/film?id=14315
+URL:https://avignon.cinemas-utopia.org/film?id=14315
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1030-13344-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T103000
+DTEND;TZID=Europe/Paris:20261024T115400
+SUMMARY:Petite Casbah
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 84 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=13344
+URL:https://avignon.cinemas-utopia.org/film?id=13344
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1030-13961-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T103000
+DTEND;TZID=Europe/Paris:20261024T124100
+SUMMARY:Raison et sentiments
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 131 mn · GB\, USA · VOST\nhttps://avignon.cinemas-uto
+ pia.org/film?id=13961
+URL:https://avignon.cinemas-utopia.org/film?id=13961
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1030-12938-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T103000
+DTEND;TZID=Europe/Paris:20261024T111400
+SUMMARY:Un amour d’épouvantail
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2025 · 44 mn · GB\nhttps://avignon.cinemas-utopia.org/film?id
+ =12938
+URL:https://avignon.cinemas-utopia.org/film?id=12938
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1115-14317-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T111500
+DTEND;TZID=Europe/Paris:20261024T131800
+SUMMARY:Une femme aujourd’hui
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 123 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=14317
+URL:https://avignon.cinemas-utopia.org/film?id=14317
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1140-13959-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T114000
+DTEND;TZID=Europe/Paris:20261024T133600
+SUMMARY:Garance
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 116 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=13959
+URL:https://avignon.cinemas-utopia.org/film?id=13959
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1220-3033-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T122000
+DTEND;TZID=Europe/Paris:20261024T142500
+SUMMARY:L’Éclipse
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:1962 · 125 mn · Italie\, France · VOST\nhttps://avignon.cine
+ mas-utopia.org/film?id=3033
+URL:https://avignon.cinemas-utopia.org/film?id=3033
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1300-local_6276-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T130000
+DTEND;TZID=Europe/Paris:20261024T153800
+SUMMARY:Notre salut
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 158 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=local_6276
+URL:https://avignon.cinemas-utopia.org/film?id=local_6276
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1345-14199-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T134500
+DTEND;TZID=Europe/Paris:20261024T152000
+SUMMARY:L’espèce explosive
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 95 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=14199
+URL:https://avignon.cinemas-utopia.org/film?id=14199
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1400-local_5075-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T140000
+DTEND;TZID=Europe/Paris:20261024T153000
+SUMMARY:Le Corset
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 90 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=local_5075
+URL:https://avignon.cinemas-utopia.org/film?id=local_5075
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1440-local_5117-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T144000
+DTEND;TZID=Europe/Paris:20261024T170200
+SUMMARY:Minotaure
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 142 mn · France\, Allemagne\, Lettonie · VOST\nhttps:
+ //avignon.cinemas-utopia.org/film?id=local_5117
+URL:https://avignon.cinemas-utopia.org/film?id=local_5117
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1550-14315-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T155000
+DTEND;TZID=Europe/Paris:20261024T173500
+SUMMARY:Wicker
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Royaume-Uni\, USA · VOST\nhttps://avignon.ci
+ nemas-utopia.org/film?id=14315
+URL:https://avignon.cinemas-utopia.org/film?id=14315
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1600-14319-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T160000
+DTEND;TZID=Europe/Paris:20261024T173000
+SUMMARY:Muyi\, la légende du village des femmes
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 90 mn · France\nAvant-première + réalisateur\nhttps:
+ //avignon.cinemas-utopia.org/film?id=14319
+URL:https://avignon.cinemas-utopia.org/film?id=14319
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1600-14317-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T160000
+DTEND;TZID=Europe/Paris:20261024T180300
+SUMMARY:Une femme aujourd’hui
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 123 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=14317
+URL:https://avignon.cinemas-utopia.org/film?id=14317
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1720-14501-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T172000
+DTEND;TZID=Europe/Paris:20261024T184600
+SUMMARY:Poison
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:1991 · 86 mn · USA · VOST\nTodd Haynes / ses 2 premiers film
+ s\nhttps://avignon.cinemas-utopia.org/film?id=14501
+URL:https://avignon.cinemas-utopia.org/film?id=14501
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1800-local_5117-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T180000
+DTEND;TZID=Europe/Paris:20261024T202200
+SUMMARY:Minotaure
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 142 mn · France\, Allemagne\, Lettonie · VOST\nhttps:
+ //avignon.cinemas-utopia.org/film?id=local_5117
+URL:https://avignon.cinemas-utopia.org/film?id=local_5117
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1830-14112-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T183000
+DTEND;TZID=Europe/Paris:20261024T201800
+SUMMARY:Le chant des oliviers
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 108 mn · Malte · VOST\nhttps://avignon.cinemas-utopia
+ .org/film?id=14112
+URL:https://avignon.cinemas-utopia.org/film?id=14112
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T1910-local_5075-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T191000
+DTEND;TZID=Europe/Paris:20261024T204000
+SUMMARY:Le Corset
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 90 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=local_5075
+URL:https://avignon.cinemas-utopia.org/film?id=local_5075
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T2000-14653-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T200000
+DTEND;TZID=Europe/Paris:20261024T215500
+SUMMARY:Les Diables
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:1971 · 115 mn · GB · VOST\nNuit Fantastique\nhttps://avignon
+ .cinemas-utopia.org/film?id=14653
+URL:https://avignon.cinemas-utopia.org/film?id=14653
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T2040-13460-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T204000
+DTEND;TZID=Europe/Paris:20261024T230500
+SUMMARY:La Gradiva
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 145 mn · France\, Italie\nhttps://avignon.cinemas-utop
+ ia.org/film?id=13460
+URL:https://avignon.cinemas-utopia.org/film?id=13460
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T2045-14315-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T204500
+DTEND;TZID=Europe/Paris:20261024T223000
+SUMMARY:Wicker
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Royaume-Uni\, USA · VOST\nhttps://avignon.ci
+ nemas-utopia.org/film?id=14315
+URL:https://avignon.cinemas-utopia.org/film?id=14315
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T2100-local_5111-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T210000
+DTEND;TZID=Europe/Paris:20261024T224200
+SUMMARY:Butterfly Jam
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 102 mn · USA · VOST\nhttps://avignon.cinemas-utopia.o
+ rg/film?id=local_5111
+URL:https://avignon.cinemas-utopia.org/film?id=local_5111
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24T2230-14364-manutention@utopia-calendar
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261024T223000
+DTEND;TZID=Europe/Paris:20261025T010600
+SUMMARY:Hope
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 156 mn · Corée du Sud · VOST\nNuit Fantastique\nAvan
+ t-première NUIT FANTASTIQUE !\nhttps://avignon.cinemas-utopia.org/film?id
+ =14364
+URL:https://avignon.cinemas-utopia.org/film?id=14364
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T0120-local_9171-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T012000
+DTEND;TZID=Europe/Paris:20261025T032000
+SUMMARY:Flush
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:VOST\nNuit Fantastique\nhttps://avignon.cinemas-utopia.org/film
+ ?id=local_9171
+URL:https://avignon.cinemas-utopia.org/film?id=local_9171
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T0245-14766-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T024500
+DTEND;TZID=Europe/Paris:20261025T042500
+SUMMARY:Fondu au noir
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:1980 · 100 mn · USA · VOST\nNuit Fantastique\nhttps://avigno
+ n.cinemas-utopia.org/film?id=14766
+URL:https://avignon.cinemas-utopia.org/film?id=14766
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1100-local_5075-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T110000
+DTEND;TZID=Europe/Paris:20261025T123000
+SUMMARY:Le Corset
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 90 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=local_5075
+URL:https://avignon.cinemas-utopia.org/film?id=local_5075
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1100-local_5117-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T110000
+DTEND;TZID=Europe/Paris:20261025T132200
+SUMMARY:Minotaure
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 142 mn · France\, Allemagne\, Lettonie · VOST\nhttps:
+ //avignon.cinemas-utopia.org/film?id=local_5117
+URL:https://avignon.cinemas-utopia.org/film?id=local_5117
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1100-12938-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T110000
+DTEND;TZID=Europe/Paris:20261025T114400
+SUMMARY:Un amour d’épouvantail
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2025 · 44 mn · GB\nhttps://avignon.cinemas-utopia.org/film?id
+ =12938
+URL:https://avignon.cinemas-utopia.org/film?id=12938
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1140-13460-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T114000
+DTEND;TZID=Europe/Paris:20261025T140500
+SUMMARY:La Gradiva
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 145 mn · France\, Italie\nhttps://avignon.cinemas-utop
+ ia.org/film?id=13460
+URL:https://avignon.cinemas-utopia.org/film?id=13460
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1200-14199-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T120000
+DTEND;TZID=Europe/Paris:20261025T133500
+SUMMARY:L’espèce explosive
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 95 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=14199
+URL:https://avignon.cinemas-utopia.org/film?id=14199
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1340-14205-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T134000
+DTEND;TZID=Europe/Paris:20261025T152500
+SUMMARY:Ton animal maternel
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Costa Rica · VOST\nhttps://avignon.cinemas-u
+ topia.org/film?id=14205
+URL:https://avignon.cinemas-utopia.org/film?id=14205
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1345-14317-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T134500
+DTEND;TZID=Europe/Paris:20261025T154800
+SUMMARY:Une femme aujourd’hui
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 123 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=14317
+URL:https://avignon.cinemas-utopia.org/film?id=14317
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1400-14315-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T140000
+DTEND;TZID=Europe/Paris:20261025T154500
+SUMMARY:Wicker
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Royaume-Uni\, USA · VOST\nhttps://avignon.ci
+ nemas-utopia.org/film?id=14315
+URL:https://avignon.cinemas-utopia.org/film?id=14315
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1430-local_5075-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T143000
+DTEND;TZID=Europe/Paris:20261025T160000
+SUMMARY:Le Corset
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 90 mn · France\nCiné-atelier / Images Fertiles\nhttps
+ ://avignon.cinemas-utopia.org/film?id=local_5075
+URL:https://avignon.cinemas-utopia.org/film?id=local_5075
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1545-14111-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T154500
+DTEND;TZID=Europe/Paris:20261025T175300
+SUMMARY:Digger
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 128 mn · USA · VOST\nhttps://avignon.cinemas-utopia.o
+ rg/film?id=14111
+URL:https://avignon.cinemas-utopia.org/film?id=14111
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1610-13460-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T161000
+DTEND;TZID=Europe/Paris:20261025T183500
+SUMMARY:La Gradiva
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 145 mn · France\, Italie\nhttps://avignon.cinemas-utop
+ ia.org/film?id=13460
+URL:https://avignon.cinemas-utopia.org/film?id=13460
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1610-local_5117-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T161000
+DTEND;TZID=Europe/Paris:20261025T183200
+SUMMARY:Minotaure
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 142 mn · France\, Allemagne\, Lettonie · VOST\nhttps:
+ //avignon.cinemas-utopia.org/film?id=local_5117
+URL:https://avignon.cinemas-utopia.org/film?id=local_5117
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1620-13344-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T162000
+DTEND;TZID=Europe/Paris:20261025T174400
+SUMMARY:Petite Casbah
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 84 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=13344
+URL:https://avignon.cinemas-utopia.org/film?id=13344
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1800-local_6276-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T180000
+DTEND;TZID=Europe/Paris:20261025T203800
+SUMMARY:Notre salut
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 158 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=local_6276
+URL:https://avignon.cinemas-utopia.org/film?id=local_6276
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1810-13979-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T181000
+DTEND;TZID=Europe/Paris:20261025T200400
+SUMMARY:Qui vit encore
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 114 mn · France\, Suisse · VOST\nhttps://avignon.cine
+ mas-utopia.org/film?id=13979
+URL:https://avignon.cinemas-utopia.org/film?id=13979
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1850-14315-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T185000
+DTEND;TZID=Europe/Paris:20261025T203500
+SUMMARY:Wicker
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Royaume-Uni\, USA · VOST\nhttps://avignon.ci
+ nemas-utopia.org/film?id=14315
+URL:https://avignon.cinemas-utopia.org/film?id=14315
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T1900-14504-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T190000
+DTEND;TZID=Europe/Paris:20261025T204500
+SUMMARY:Low Expectations
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Norvège · VOST\nhttps://avignon.cinemas-uto
+ pia.org/film?id=14504
+URL:https://avignon.cinemas-utopia.org/film?id=14504
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T2020-14650-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T202000
+DTEND;TZID=Europe/Paris:20261025T224200
+SUMMARY:Secrets et mensonges
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:1996 · 142 mn · GB · VOST\nMike Leigh en 3 films\nhttps://av
+ ignon.cinemas-utopia.org/film?id=14650
+URL:https://avignon.cinemas-utopia.org/film?id=14650
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T2050-14111-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T205000
+DTEND;TZID=Europe/Paris:20261025T225800
+SUMMARY:Digger
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 128 mn · USA · VOST\nhttps://avignon.cinemas-utopia.o
+ rg/film?id=14111
+URL:https://avignon.cinemas-utopia.org/film?id=14111
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T2050-13959-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T205000
+DTEND;TZID=Europe/Paris:20261025T224600
+SUMMARY:Garance
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 116 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=13959
+URL:https://avignon.cinemas-utopia.org/film?id=13959
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25T2100-13931-manutention@utopia-calendar
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Paris:20261025T210000
+DTEND;TZID=Europe/Paris:20261025T223700
+SUMMARY:Fini de rire ! L’humour politique au garde-à-vous ?
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 97 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=13931
+URL:https://avignon.cinemas-utopia.org/film?id=13931
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1100-13344-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T110000
+DTEND;TZID=Europe/Paris:20261026T122400
+SUMMARY:Petite Casbah
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 84 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=13344
+URL:https://avignon.cinemas-utopia.org/film?id=13344
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1100-12938-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T110000
+DTEND;TZID=Europe/Paris:20261026T114400
+SUMMARY:Un amour d’épouvantail
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2025 · 44 mn · GB\nhttps://avignon.cinemas-utopia.org/film?id
+ =12938
+URL:https://avignon.cinemas-utopia.org/film?id=12938
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1130-14504-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T113000
+DTEND;TZID=Europe/Paris:20261026T131500
+SUMMARY:Low Expectations
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Norvège · VOST\nhttps://avignon.cinemas-uto
+ pia.org/film?id=14504
+URL:https://avignon.cinemas-utopia.org/film?id=14504
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1130-13961-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T113000
+DTEND;TZID=Europe/Paris:20261026T134100
+SUMMARY:Raison et sentiments
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 131 mn · GB\, USA · VOST\nhttps://avignon.cinemas-uto
+ pia.org/film?id=13961
+URL:https://avignon.cinemas-utopia.org/film?id=13961
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1200-14406-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T120000
+DTEND;TZID=Europe/Paris:20261026T134500
+SUMMARY:Marie Madeleine
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Haïti\, France · VOST\nhttps://avignon.cine
+ mas-utopia.org/film?id=14406
+URL:https://avignon.cinemas-utopia.org/film?id=14406
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1300-14501-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T130000
+DTEND;TZID=Europe/Paris:20261026T142600
+SUMMARY:Poison
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:1991 · 86 mn · USA · VOST\nTodd Haynes / ses 2 premiers film
+ s\nhttps://avignon.cinemas-utopia.org/film?id=14501
+URL:https://avignon.cinemas-utopia.org/film?id=14501
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1345-14111-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T134500
+DTEND;TZID=Europe/Paris:20261026T155300
+SUMMARY:Digger
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 128 mn · USA · VOST\nhttps://avignon.cinemas-utopia.o
+ rg/film?id=14111
+URL:https://avignon.cinemas-utopia.org/film?id=14111
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1400-13460-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T140000
+DTEND;TZID=Europe/Paris:20261026T162500
+SUMMARY:La Gradiva
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 145 mn · France\, Italie\nhttps://avignon.cinemas-utop
+ ia.org/film?id=13460
+URL:https://avignon.cinemas-utopia.org/film?id=13460
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1410-14317-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T141000
+DTEND;TZID=Europe/Paris:20261026T161300
+SUMMARY:Une femme aujourd’hui
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 123 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=14317
+URL:https://avignon.cinemas-utopia.org/film?id=14317
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1445-local_5075-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T144500
+DTEND;TZID=Europe/Paris:20261026T161500
+SUMMARY:Le Corset
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 90 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=local_5075
+URL:https://avignon.cinemas-utopia.org/film?id=local_5075
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1620-14315-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T162000
+DTEND;TZID=Europe/Paris:20261026T180500
+SUMMARY:Wicker
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Royaume-Uni\, USA · VOST\nhttps://avignon.ci
+ nemas-utopia.org/film?id=14315
+URL:https://avignon.cinemas-utopia.org/film?id=14315
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1630-local_5118-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T163000
+DTEND;TZID=Europe/Paris:20261026T194500
+SUMMARY:Soudain
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 195 mn · France\, Japon · VOST\nhttps://avignon.cinem
+ as-utopia.org/film?id=local_5118
+URL:https://avignon.cinemas-utopia.org/film?id=local_5118
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1640-13959-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T164000
+DTEND;TZID=Europe/Paris:20261026T183600
+SUMMARY:Garance
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 116 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=13959
+URL:https://avignon.cinemas-utopia.org/film?id=13959
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1700-13460-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T170000
+DTEND;TZID=Europe/Paris:20261026T192500
+SUMMARY:La Gradiva
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 145 mn · France\, Italie\nhttps://avignon.cinemas-utop
+ ia.org/film?id=13460
+URL:https://avignon.cinemas-utopia.org/film?id=13460
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1830-14317-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T183000
+DTEND;TZID=Europe/Paris:20261026T203300
+SUMMARY:Une femme aujourd’hui
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 123 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=14317
+URL:https://avignon.cinemas-utopia.org/film?id=14317
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T1900-local_5075-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T190000
+DTEND;TZID=Europe/Paris:20261026T203000
+SUMMARY:Le Corset
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 90 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=local_5075
+URL:https://avignon.cinemas-utopia.org/film?id=local_5075
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T2000-local_6276-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T200000
+DTEND;TZID=Europe/Paris:20261026T223800
+SUMMARY:Notre salut
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 158 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=local_6276
+URL:https://avignon.cinemas-utopia.org/film?id=local_6276
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T2010-local_5117-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T201000
+DTEND;TZID=Europe/Paris:20261026T223200
+SUMMARY:Minotaure
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 142 mn · France\, Allemagne\, Lettonie · VOST\nhttps:
+ //avignon.cinemas-utopia.org/film?id=local_5117
+URL:https://avignon.cinemas-utopia.org/film?id=local_5117
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T2050-14112-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T205000
+DTEND;TZID=Europe/Paris:20261026T223800
+SUMMARY:Le chant des oliviers
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 108 mn · Malte · VOST\nhttps://avignon.cinemas-utopia
+ .org/film?id=14112
+URL:https://avignon.cinemas-utopia.org/film?id=14112
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26T2050-14315-manutention@utopia-calendar
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Paris:20261026T205000
+DTEND;TZID=Europe/Paris:20261026T223500
+SUMMARY:Wicker
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Royaume-Uni\, USA · VOST\nhttps://avignon.ci
+ nemas-utopia.org/film?id=14315
+URL:https://avignon.cinemas-utopia.org/film?id=14315
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1030-local_5075-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T103000
+DTEND;TZID=Europe/Paris:20261027T120000
+SUMMARY:Le Corset
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 90 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=local_5075
+URL:https://avignon.cinemas-utopia.org/film?id=local_5075
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1030-12938-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T103000
+DTEND;TZID=Europe/Paris:20261027T111400
+SUMMARY:Un amour d’épouvantail
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2025 · 44 mn · GB\nhttps://avignon.cinemas-utopia.org/film?id
+ =12938
+URL:https://avignon.cinemas-utopia.org/film?id=12938
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1100-13979-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T110000
+DTEND;TZID=Europe/Paris:20261027T125400
+SUMMARY:Qui vit encore
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 114 mn · France\, Suisse · VOST\nhttps://avignon.cine
+ mas-utopia.org/film?id=13979
+URL:https://avignon.cinemas-utopia.org/film?id=13979
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1130-13959-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T113000
+DTEND;TZID=Europe/Paris:20261027T132600
+SUMMARY:Garance
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 116 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=13959
+URL:https://avignon.cinemas-utopia.org/film?id=13959
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1140-14502-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T114000
+DTEND;TZID=Europe/Paris:20261027T133900
+SUMMARY:Safe
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:1995 · 119 mn · USA\, GB · VOST\nTodd Haynes / ses 2 premier
+ s films\nhttps://avignon.cinemas-utopia.org/film?id=14502
+URL:https://avignon.cinemas-utopia.org/film?id=14502
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1220-13931-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T122000
+DTEND;TZID=Europe/Paris:20261027T135700
+SUMMARY:Fini de rire ! L’humour politique au garde-à-vous ?
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 97 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=13931
+URL:https://avignon.cinemas-utopia.org/film?id=13931
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1320-local_5117-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T132000
+DTEND;TZID=Europe/Paris:20261027T154200
+SUMMARY:Minotaure
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 142 mn · France\, Allemagne\, Lettonie · VOST\nhttps:
+ //avignon.cinemas-utopia.org/film?id=local_5117
+URL:https://avignon.cinemas-utopia.org/film?id=local_5117
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1350-14315-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T135000
+DTEND;TZID=Europe/Paris:20261027T153500
+SUMMARY:Wicker
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Royaume-Uni\, USA · VOST\nhttps://avignon.ci
+ nemas-utopia.org/film?id=14315
+URL:https://avignon.cinemas-utopia.org/film?id=14315
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1400-14406-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T140000
+DTEND;TZID=Europe/Paris:20261027T154500
+SUMMARY:Marie Madeleine
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Haïti\, France · VOST\nhttps://avignon.cine
+ mas-utopia.org/film?id=14406
+URL:https://avignon.cinemas-utopia.org/film?id=14406
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1415-13344-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T141500
+DTEND;TZID=Europe/Paris:20261027T153900
+SUMMARY:Petite Casbah
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 84 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=13344
+URL:https://avignon.cinemas-utopia.org/film?id=13344
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1550-14317-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T155000
+DTEND;TZID=Europe/Paris:20261027T175300
+SUMMARY:Une femme aujourd’hui
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 123 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=14317
+URL:https://avignon.cinemas-utopia.org/film?id=14317
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1600-14111-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T160000
+DTEND;TZID=Europe/Paris:20261027T180800
+SUMMARY:Digger
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 128 mn · USA · VOST\nhttps://avignon.cinemas-utopia.o
+ rg/film?id=14111
+URL:https://avignon.cinemas-utopia.org/film?id=14111
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1600-13460-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T160000
+DTEND;TZID=Europe/Paris:20261027T182500
+SUMMARY:La Gradiva
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 145 mn · France\, Italie\nhttps://avignon.cinemas-utop
+ ia.org/film?id=13460
+URL:https://avignon.cinemas-utopia.org/film?id=13460
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1600-local_5075-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T160000
+DTEND;TZID=Europe/Paris:20261027T173000
+SUMMARY:Le Corset
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 90 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=local_5075
+URL:https://avignon.cinemas-utopia.org/film?id=local_5075
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1800-14315-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T180000
+DTEND;TZID=Europe/Paris:20261027T194500
+SUMMARY:Wicker
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 105 mn · Royaume-Uni\, USA · VOST\nhttps://avignon.ci
+ nemas-utopia.org/film?id=14315
+URL:https://avignon.cinemas-utopia.org/film?id=14315
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1815-3033-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T181500
+DTEND;TZID=Europe/Paris:20261027T202000
+SUMMARY:L’Éclipse
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:1962 · 125 mn · Italie\, France · VOST\nhttps://avignon.cine
+ mas-utopia.org/film?id=3033
+URL:https://avignon.cinemas-utopia.org/film?id=3033
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1830-14199-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T183000
+DTEND;TZID=Europe/Paris:20261027T200500
+SUMMARY:L’espèce explosive
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 95 mn · France\nhttps://avignon.cinemas-utopia.org/fil
+ m?id=14199
+URL:https://avignon.cinemas-utopia.org/film?id=14199
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T1845-local_5111-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T184500
+DTEND;TZID=Europe/Paris:20261027T202700
+SUMMARY:Butterfly Jam
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 102 mn · USA · VOST\nhttps://avignon.cinemas-utopia.o
+ rg/film?id=local_5111
+URL:https://avignon.cinemas-utopia.org/film?id=local_5111
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T2010-14068-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T201000
+DTEND;TZID=Europe/Paris:20261027T212200
+SUMMARY:Je veux bien
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 72 mn · France\nJournée mondiale du refus de la misè
+ re du 17 octobre\nhttps://avignon.cinemas-utopia.org/film?id=14068
+URL:https://avignon.cinemas-utopia.org/film?id=14068
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T2030-local_5117-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T203000
+DTEND;TZID=Europe/Paris:20261027T225200
+SUMMARY:Minotaure
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 142 mn · France\, Allemagne\, Lettonie · VOST\nhttps:
+ //avignon.cinemas-utopia.org/film?id=local_5117
+URL:https://avignon.cinemas-utopia.org/film?id=local_5117
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T2030-14317-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T203000
+DTEND;TZID=Europe/Paris:20261027T223300
+SUMMARY:Une femme aujourd’hui
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 123 mn · France\nhttps://avignon.cinemas-utopia.org/fi
+ lm?id=14317
+URL:https://avignon.cinemas-utopia.org/film?id=14317
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27T2040-14111-manutention@utopia-calendar
+DTSTAMP:20261027T000000Z
+DTSTART;TZID=Europe/Paris:20261027T204000
+DTEND;TZID=Europe/Paris:20261027T224800
+SUMMARY:Digger
+LOCATION:Utopia Manutention\, 4 Rue des Escaliers Sainte-Anne\, 84000 Avign
+ on
+DESCRIPTION:2026 · 128 mn · USA · VOST\nhttps://avignon.cinemas-utopia.o
+ rg/film?id=14111
+URL:https://avignon.cinemas-utopia.org/film?id=14111
+END:VEVENT
+END:VCALENDAR

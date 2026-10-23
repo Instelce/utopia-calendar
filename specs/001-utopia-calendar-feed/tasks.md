@@ -196,7 +196,7 @@ Projet unique à la racine : `src/`, `tests/`, `.github/workflows/` (voir plan.m
   - panne simulée qui renvoie le code de sortie 1 et laisse `public/` inchangé.
 
   Consigner les écarts éventuels.
-- [ ] T019 Après le premier déploiement, dérouler quickstart.md sections 5 et 6 : vérifier que le `Content-Type` est `text/calendar` (`curl -sI`) et que l'abonnement fonctionne dans Apple Calendar et Google Agenda (SC-002). Cette tâche demande à l'utilisateur d'activer Pages et de pousser sur `main`.
+- [X] T019 Après le premier déploiement, dérouler quickstart.md sections 5 et 6 : vérifier que le `Content-Type` est `text/calendar` (`curl -sI`) et que l'abonnement fonctionne dans Apple Calendar et Google Agenda (SC-002). Cette tâche demande à l'utilisateur d'activer Pages et de pousser sur `main`.
 
 ---
 
