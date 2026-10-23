@@ -1,0 +1,2 @@
+# iCalendar requires CRLF: keep .ics fixtures byte-for-byte (core.autocrlf would strip \r).
+*.ics -text
