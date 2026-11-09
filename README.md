@@ -18,7 +18,7 @@ Copiez l'URL du cinéma, puis :
 
 Chaque séance apparaît comme un événement, avec le titre du film, le début et la fin (calculée à partir de la durée du film), l'adresse du cinéma, la version (VOST), les mentions (avant-première, cycle…) et le lien vers la fiche du film.
 
-Les calendriers sont mis à jour tous les deux jours, à partir de la semaine affichée sur le site. Votre application les rafraîchit ensuite à son rythme : Google Agenda peut mettre 24 h ou plus.
+Les calendriers sont mis à jour tous les deux jours, avec toutes les semaines publiées sur le site (en général 4 à 6). Votre application les rafraîchit ensuite à son rythme : Google Agenda peut mettre 24 h ou plus.
 
 ## Filtrer les séances
 
